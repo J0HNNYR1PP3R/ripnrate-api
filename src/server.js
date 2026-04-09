@@ -14,6 +14,8 @@ const ALLOWED_ORIGINS = [
   'https://ccg.wingwide.us',
   'https://www.wingwide.us',
   'https://wingwide.us',
+  'https://ripnrate.io',
+  'https://www.ripnrate.io',
 ];
 
 app.use(cors({
