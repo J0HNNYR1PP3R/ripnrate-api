@@ -1,0 +1,26 @@
+{
+  "name": "rip-n-rate-api",
+  "version": "1.0.0",
+  "description": "Backend scraping and scoring engine for Rip N Rate — gamified lead generation",
+  "type": "module",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "api": "node src/server.js",
+    "dev:api": "node --watch src/server.js"
+  },
+  "keywords": [
+    "apify",
+    "lead-generation",
+    "google-maps",
+    "meta-ads",
+    "ccg"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.9.0",
+    "cors": "^2.8.6",
+    "dotenv": "^16.5.0",
+    "express": "^5.2.1"
+  }
+}
